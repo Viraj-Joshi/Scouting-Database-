@@ -1,0 +1,98 @@
+body {
+	background-color: #1a1a1a;
+    background-image: url("../images/pixel_bg.png");
+}
+.title {
+	text-align: center;
+}
+.matchTable
+{
+	border-spacing: 0px 0px;
+	background-image: url("../images/pixel_bg.png");
+	background-color: #0d0d0d;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px 15px 15px 15px;
+	overflow: hidden;
+	font-size: 120%;
+	width:65%;
+	padding: 0px 0px 0px 0px;
+}
+.top
+{
+	background-color: rgba(0, 0, 0, .4);
+	height:70px;
+	color:#e6e6e6;
+}
+.red
+{
+	color:#ff9999;
+	background-color: rgba(255, 0, 0, .2);
+}
+a.red-a
+{
+	color:#ff9999;
+}
+.blue
+{
+	color:#9999ff;
+	background-color: rgba(0, 0, 255, .2);
+}
+a.blue-a
+{
+	color:#9999ff;
+}
+.green
+{
+	color:#9bff99;
+	font-weight: bold;
+	background-color: rgba(6, 240, 0, .2);
+}
+a.green-a
+{
+	color:#9bff99;
+}
+.time
+{
+	color:#ffff99;
+	background-color: rgba(255, 255, 0, .2);
+}
+tr.side-bar
+{
+	background-color: rgba(89, 89, 89, .4);
+	border-style: none;
+	background: none;
+}
+a.side-bar-a
+{
+	color:white;
+}
+tr.scheduleZenbra:nth-child(even) 
+{
+	background-color: rgba(38, 38, 38, .5);
+}
+tr.scheduleZenbra:hover
+{
+	background-color: rgba(230, 230, 230, .2);
+}
+
+@media only screen and (max-width : 622px) {
+	
+	.table-top-time
+	{
+		display: none;
+		font-size:80%;
+	}
+	.time
+	{
+		display: none;
+		font-size:80%;
+	}
+	
+}
+
+
+
+
+
+

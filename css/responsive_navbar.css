@@ -1,0 +1,147 @@
+html{
+	color:#FFF;
+}
+
+body{
+	font-family: 'Carme', sans-serif;
+	margin:0;
+	padding:0;
+	top:0;
+	color:#FFF;
+}
+
+header
+{
+	background-color: #000;
+	width: 100%;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;	
+}
+nav 
+{
+	background-color: #000;
+	margin: 0;
+	float: right;
+	padding: 15px;	
+}
+
+
+ul.navbar
+{
+	
+	color:#FFF;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li.navbar
+{
+	float: left;
+	display: inline-block;
+}
+li.navbar a.navbar
+{
+	color: #FFF;
+	text-align: right;
+	padding-top:14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    text-decoration: none;
+	display: block;
+}
+
+li.navbar a.navbar:hover
+{
+	background-color: #333;
+	color:#00F600;
+}
+
+a.logo
+{
+	background-color: #000;
+	float: left;
+	height: 70px;
+	width: 168px;
+	padding: 2px;
+	background: url(../images/pretty_green_text.png) no-repeat center;
+	display: block;
+}
+
+.active
+{
+	color: #00F600;
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #00F600 url(../images/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #00F600;
+
+}
+
+/*When the screen is small, show the mobile friendly menu*/
+@media only screen and (max-width : 1200px) {
+
+	header {
+		position: absolute;
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+	
+	ul.navbar
+	{
+		width:20%;
+	}
+
+	nav ul, nav:hover ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		/*padding: 20px;*/
+		background: #000;
+		border: 1px solid #00F600;
+		right: 20px;
+		top: 60px;
+		width: 35%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: right;
+		width: 100%;
+		/*padding: 10px 0;*/
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+}
+
+
+
+
+

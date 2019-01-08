@@ -1,0 +1,122 @@
+
+div.form_container{
+	background-color: #313131;
+	background-image: url("../images/pixel_bg.png");
+	padding:5%;
+	width:80%;
+	margin:0 auto;
+	opacity: 0.9;
+	border-radius: 15px;
+}
+.datafield {
+	color: white;
+	background-color: #313131;
+	background-image: url("../images/pixel_bg.png");
+	opacity: 0.9;
+}
+
+table{
+	margin:0 auto;
+	border-radius: 5px;
+}
+
+.green{
+	border: none;
+	background-color: #4d4d4d;
+	border: 1px solid green;
+	padding:5px;
+
+}
+td {
+	padding:2px;
+	margin:0;
+}
+input.small_num
+{
+	width:50%;
+}
+input[type="checkbox"]
+{
+	width:60px;
+}
+h2{
+	font-family:monospace;
+	margin-top: 10px;
+	color: black;
+	size: 40px;
+}
+h1.title{
+	color:#06F000;
+	margin-top: 0px;
+}
+.DataTitle
+{
+	color:white;
+	font-size:220%;
+}
+.blackBox
+{
+	background-color: rgba(26, 26, 26, 1);
+	border-radius: 10px;
+	padding:30px 10px 40px 10px;
+}
+.default
+{
+	width:90px;
+}
+.slim
+{
+	width:75px;
+}
+.endBoxGood
+{
+	margin:0 auto;
+	border: none;
+	border-radius: 10px;
+	background-color: #4d4d4d;
+	border: 1px solid green;
+	padding:5px;
+	width:40%;
+	min-width:300px;
+}
+.endBoxBad
+{
+	margin:0 auto;
+	border: none;
+	border-radius: 10px;
+	background-color: #4d4d4d;
+	border: 1px solid red;
+	padding:5px;
+	width:40%;
+	color:red;
+	min-width:250px;
+}
+a.fakeButton
+{
+	Width:auto;
+	height:25px;
+	border-radius: 5px;
+	background-color: rgba(6, 240, 0, 1);
+	padding:5px 10px 5px 10px;
+	color:black;
+	text-decoration: none;
+}
+a.fakeButton:hover
+{
+	Width:auto;
+	height:25px;
+	border-radius: 5px;
+	background-color: rgba(105, 255, 102, 1);
+	padding:5px 10px 5px 10px;
+	color:black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

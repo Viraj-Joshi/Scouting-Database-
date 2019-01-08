@@ -1,0 +1,19 @@
+/*.NoteEntry{
+	border-style:solid;
+	border-color:green;
+}*/
+.teamsearch{
+	/*font-family:monospace;*/
+	margin-top: 10px;
+	color: #bfbfbf;
+	font-size: 18px;
+}
+/*.dropdowns{
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	background-color: white;	
+	font-family:monospace;
+	/*border: none;*/
+	/*outline: none;
+}

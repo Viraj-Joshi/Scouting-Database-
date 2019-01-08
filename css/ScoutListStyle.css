@@ -1,0 +1,26 @@
+body {
+	background-color: #1a1a1a;
+    background-image: url("../images/pixel_bg.png");
+}
+.title {
+	text-align: center;
+}
+#scoutTable {
+	margin: 0 auto;
+	background-color: #313131;
+	background-image: url("../images/pixel_bg.png");
+	height: 100%;
+	width: 25%;
+	opacity: 0.9;
+	border: 2px solid black;
+	text-align: center;
+	padding: 1%;
+	border-radius: 10px;
+}
+th.scoutTHead {
+	text-decoration: underline;
+	color: #06f000;
+}
+td {
+	padding: 2%; 
+}
